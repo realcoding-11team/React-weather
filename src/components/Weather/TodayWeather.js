@@ -9,8 +9,7 @@ class TodayWeather extends React.Component {
   };
 
   async componentDidMount() {
-    // const { cityId } = this.props.match.params;
-    const cityId = 'Daejeon';
+    const { cityId } = this.props.match.params;
     const api = `${API_WEATHER}/${cityId}`;
 
     const weather = await fetch(api)
