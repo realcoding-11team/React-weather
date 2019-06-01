@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from './Icon';
 
-const API_WEATHER = 'http://demo6468405.mockable.io/weather-crawlers/current-weathers/by-city-name';
+const API_WEATHER = 'http://127.0.0.1:8080/weather-crawler/current-weathers/by-city-name/';
 
 class TodayWeather extends React.Component {
   state = {
